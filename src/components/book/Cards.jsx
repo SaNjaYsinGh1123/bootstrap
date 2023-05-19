@@ -37,12 +37,12 @@ const Cards = () => {
                   <Link to={`/details/${e._id}`}>
                     <img className='h-96 w-80 md:h-72 md:w-44' src={imageUrl} alt='book-image' onError={(e)=>e.target.src = 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flipkart.com%2Fhandbook-of-physics%2Fp%2Fitm478ad693d6330&psig=AOvVaw2SpqZglqtHR1VWqYd0Yk-M&ust=1684520621867000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCNil5r2-__4CFQAAAAAdAAAAABAE'}/>
                   <div className='ml-2 mt-1'>
-                    <h1>{(e.title)}</h1>
+                    <h1>{(e.title.slice(0,15))}...</h1>
                     <h1 className='flex items-center'>
                     <h1>Year: {e.year}</h1>
                   
                     </h1>
-                    <h1>author: {e.author}</h1>
+                    <h1>author: {e.author.split(" ")[0]}</h1>
                   </div>
                   </Link>
                 </div>
