@@ -1,0 +1,100 @@
+.singlePage1 {
+  padding: 50px 0;
+  background: #fff;
+}
+.singlePage1 .right1 {
+  margin-top: 30px;
+}
+.singlePage1 .container1{
+  display: flex;
+  justify-content: center;
+
+  background-color:rgb(208, 238, 250);
+}
+.singlePage1 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.singlePage1 h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.singlePage1 h1 input {
+  font-size: 30px;
+  font-weight: 500;
+}
+.singlePage1 p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 2;
+  text-transform: capitalize;
+}
+.singlePage1  p input{
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 2;
+}
+.singlePage1 .buttons1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.singlePage1 .button1 {
+  margin-left: 20px;
+  border: none;
+}
+.singlePage1 .l {
+  border: none;
+}
+.singlePage1 .button:nth-child(1) {
+  background: #10ac84;
+}
+.singlePage1 .button:nth-child(2) {
+  background: #ee5253;
+}
+
+
+/* form */
+
+/* .newPost {
+  margin: 60px 0;
+}
+.newPost .container {
+  max-width: 50%;
+}
+.newPost i {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: -20px;
+}
+.newPost img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.newPost .img {
+  position: relative;
+}
+.newPost form {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+}
+.newPost .inputfile input {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+}
+.newPost .img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  border-radius: 5px;
+} */
